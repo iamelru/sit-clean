@@ -1,6 +1,6 @@
 import { Nullable } from "../utility";
 
-export class Unit {
+export abstract class Unit {
   readonly long: string;
 
   constructor(readonly short: string, long?: string) {
